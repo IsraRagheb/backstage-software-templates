@@ -32,7 +32,7 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: ./template
+        url: ./
         values:
           app_name: ${{parameters.component_id}}
           app_env: ${{parameters.environment}}
